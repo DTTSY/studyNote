@@ -1,0 +1,80 @@
+{
+    //编译器设定
+    "workbench.iconTheme": "vscode-icons",
+    "cmake.mingwSearchDirs": [
+        "C:\\mingw64"
+    ],
+
+    //background(背景图片) 的相关配置
+    "update.enableWindowsBackgroundUpdates": true,
+    /*"background.customImages": [
+        "file:///D:/绘画/p站/2188232/2018.1月-2月-67609464_p0.jpg"//图片地址
+    ],*/
+    "background.style": {
+        "content":"''",
+        "pointer-events":"none",
+        "position":"absolute",//图片位置
+        "width":"100%",
+        "height":"100%",
+        "z-index":"99999",
+        "background.repeat":"no-repeat",
+        "background-size":"100%,100%",//图片大小
+        "opacity":0.2 //透明度
+    },
+    "background.useFront": true,
+    "background.useDefault": false,
+    "workbench.colorTheme": "Quiet Light",
+    "window.zoomLevel": 1,
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "C_Cpp.clang_format_style": "Visual Studio",
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#84FFFF",
+        "activityBar.activeBorder": "#84FFFF",
+        "list.activeSelectionForeground": "#84FFFF",
+        "list.inactiveSelectionForeground": "#84FFFF",
+        "list.highlightForeground": "#84FFFF",
+        "scrollbarSlider.activeBackground": "#84FFFF50",
+        "editorSuggestWidget.highlightForeground": "#84FFFF",
+        "textLink.foreground": "#84FFFF",
+        "progressBar.background": "#84FFFF",
+        "pickerGroup.foreground": "#84FFFF",
+        "tab.activeBorder": "#84FFFF",
+        "notificationLink.foreground": "#84FFFF",
+        "editorWidget.resizeBorder": "#84FFFF",
+        "editorWidget.border": "#84FFFF",
+        "settings.modifiedItemIndicator": "#84FFFF",
+        "settings.headerForeground": "#84FFFF",
+        "panelTitle.activeBorder": "#84FFFF",
+        "breadcrumb.activeSelectionForeground": "#84FFFF",
+        "menu.selectionForeground": "#84FFFF",
+        "menubar.selectionForeground": "#84FFFF",
+        "editor.findMatchBorder": "#84FFFF",
+        "selection.background": "#84FFFF40"
+    },
+    "materialTheme.accent": "Sky",
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    }, //是否使用默认图片
+
+    //窗口透明度
+    "winopacity.opacity": 150,
+    // 文件头部注释
+    "fileheader.customMade": {
+        "Descripttion":"",
+        "version":"v1版本",
+        "Author":"邓涛",
+        "Date":"Do not edit",
+        "LastEditors":"邓涛",
+        "LastEditTime":"Do not Edit"
+    },
+    //函数注释
+    "fileheader.cursorMode": {
+        "name":"",
+        "test":"test font",
+        "msg":"",
+        "param":"",
+        "return":""
+    }
+}
