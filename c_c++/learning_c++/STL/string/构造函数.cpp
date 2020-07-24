@@ -2,7 +2,7 @@
  * @Author       : DengTao
  * @Date         : 2020-07-24 14:34:05
  * @LastEditors  : DengTao
- * @LastEditTime : 2020-07-24 18:02:58
+ * @LastEditTime : 2020-07-24 18:19:15
  * @Description  : 
  * @FilePath     : /studyNote/c_c++/learning_c++/STL/string/构造函数.cpp
  */
@@ -26,6 +26,5 @@ int main(int argc, char const *argv[])
 
     string s4(10, 'a');
     cout << "s4: " << s4 << endl;
-
     return 0;
 }
